@@ -1,0 +1,29 @@
+<html>
+    <head>
+    <title>Flask Web App</title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="./static/css/main.css"/>
+    <style>
+        body 
+        {
+            background-image:  url('static/images/image.jpeg') ;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+    </style>
+    <body>
+        <div class="form">
+            <h1>Image Classification For ImageNet Dataset</h1>
+            <form id="upload-file" method="POST" enctype="multipart/form-data">
+                <label for="imageUpload" class="upload-label">
+                    <h1 color="red"> Choose...</h1>
+                </label>
+                <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg"/>
+                <input type="submit" value="Predict"/>
+            </form>
+        </div>
+    </body>
+</html>
+        
+
