@@ -19,7 +19,10 @@ In 2015,Inception-v3 with 144 crops and 4 models ensembled, the top-5 error rate
 
 In 2015,ResNet secured 1st Position in ILSVRC and COCO 2015 competition with just error rate of 3.6% of error rate. (Better than Human Performance !!!)
 
-## 
+## Comparision Chart On the SOTA Architectures On ImageNet Challenge
+
+    ![](imagenet_architecturea_accuracy_comparision_chart.png)
+    
 
 
 
@@ -27,5 +30,11 @@ But in this repository we have used the pretrained weights of VGG-19 architeture
 
 ## Architecture Of VGGNET:
 
+
+    ![](Architecture-of-the-FCN-VGG19-adapted-from-Long-et-al-2015-which-learns-to-combine.png)
+    
+    
+    ![](vgg19_architecture.png)
+    
 
 Firstly, I run my notebook in google colab to download the VGG-19 pretrained model and then I save the model weights in .h5 file format.
