@@ -88,7 +88,7 @@ For installing virtual environment on Anaconda Prompt(Windows):
   
   
         cd /*location to the repository */
-        e.g cd E:/Attendance_system_using_face_recognition/ (location to the repository in local computer)
+        e.g cd C:\Users\ASUS\Desktop\image_classification_with_imagenet (location to the repository in local computer)
   
   
  ##### iii) After changing the working directory to the current repository/project create a virtual environment by using the following commands:
@@ -98,8 +98,9 @@ For installing virtual environment on Anaconda Prompt(Windows):
      
      python -m venv venv 
      
+     e.g python -m venv imagenet
      
-   Here venv is the name of the environment you like to choose.
+    Here venv is the name of the environment you like to choose. imagenet is the name of the virtual environment that i choose to use in     the example
      
  
  #### Recommended
@@ -108,12 +109,13 @@ For installing virtual environment on Anaconda Prompt(Windows):
      conda create -n "your virtual environment name" python=3.6 (The code is tested and implemented in 3.6 so install python 3.6)
      e.g.
      
-     conda create -n facialrecognition python=3.6
+     conda create -n vgg19_imagenet python=3.6
      
      
      
  ### On Linux or Mac:
      python3 -m venv venv
+     
     
      
 ##### iv) After creating a virtual environment in a working directory, you need to activate the virtual environment:
@@ -132,7 +134,7 @@ For installing virtual environment on Anaconda Prompt(Windows):
    
      e.g 
    
-     conda activate facialrecognition
+     conda activate vgg19_imagenet
    
 
 #### v) Now you need to install all the requirements and dependencies for running this project.
