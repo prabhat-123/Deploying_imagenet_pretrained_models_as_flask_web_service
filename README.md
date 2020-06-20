@@ -5,8 +5,15 @@ ImageNet is a huge collection of image database with more than 14 million images
 
 ## How ImageNet Dataset was created?
 
-Here is a link to the video of one of the research Fei-Fei-Li where she explains about the idea behind the creation of imagenet dataset and how it got created.
+Here is a link to the video of one of the researcher Fei-Fei-Li where she explains about the idea behind the creation of imagenet dataset and how it got created.
 
 https://www.youtube.com/watch?v=40riCqvRoMs
+
+## History Of Imagenet Challenge
+
+AlexNet was born out of the need to improve the results of the ImageNet challenge. This was one of the first Deep convolutional networks to achieve considerable accuracy on the 2012 ImageNet LSVRC-2012 challenge with an accuracy of 84.7% as compared to the second-best with an accuracy of 73.8%.
+
+
+
 
 Firstly, I run my notebook in google colab to download the VGG-19 pretrained model and then I save the model weights in .h5 file format.
