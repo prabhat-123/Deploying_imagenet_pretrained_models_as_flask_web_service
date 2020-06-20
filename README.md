@@ -28,6 +28,12 @@ But in this repository we have used the pretrained weights of VGG-19 architeture
 ## Architecture Of VGGNET:
 ![](Architecture-of-the-FCN-VGG19-adapted-from-Long-et-al-2015-which-learns-to-combine.png)
 ![](vgg19_architecture.png)
-    
 
-Firstly, I run my notebook in google colab to download the VGG-19 pretrained model and then I save the model weights in .h5 file format.
+## Steps
+
+1) At first,run the notebook in google colab/jupyter notebook to download the VGG-19 pretrained model and then I save the model weights in .h5 file format.
+The notebook file is also available in this repository: 
+    
+    (Check out 'imagenet_vgg19_weights.ipynb' file)
+    
+    
