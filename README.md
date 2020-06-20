@@ -10,7 +10,7 @@ Here is a link to the video of one of the researcher Fei-Fei-Li where she explai
 https://www.youtube.com/watch?v=40riCqvRoMs
 
 ## History Of Imagenet Challenge
-
+![](imagenet.png)
 AlexNet was born out of the need to improve the results of the ImageNet challenge. This was one of the first Deep convolutional networks to achieve considerable accuracy on the 2012 ImageNet LSVRC-2012 challenge with an accuracy of 84.7% as compared to the second-best with an accuracy of 73.8%.
 
 In 2014,a successor of AlexNet VGGNet was created by Visual Geometry Group at OxFord's and hence the name VGG. VGGNet was the runner up of the ImageNet Large Scale Visual Recognition Challenge(ILSVRC) classification the benchmark in 2014 with just 7.3% error rate in the ILSVRC challenge.
