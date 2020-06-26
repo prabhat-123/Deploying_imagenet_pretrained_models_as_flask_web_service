@@ -27,10 +27,10 @@ In 2015,ResNet secured 1st Position in ILSVRC and COCO 2015 competition with jus
 But in this repository we have used the pretrained weights of VGG-19 architeture.VGGNET has two variants.VGG-16 and VGG-19. VGG-16 is 16 layers deep with 13 convolution layers and 3 fully connected layers but VGG-19 is 19 layers deep with 16 convolution layers and 3 fully connected layers.
 
 ## Architecture Of Inceptionv1 Net(GoogleNet):
-![](29.jpg)
+![](googlenet.jpg)
 
 ## Architecture Of InceptionV3 Net:
-![](1_gqKM5V-uo2sMFFPDS84yJw.png)
+![](inceptionv3.png)
 
 ## How To Run This Project
 
