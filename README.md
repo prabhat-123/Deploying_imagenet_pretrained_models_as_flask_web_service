@@ -15,6 +15,7 @@ AlexNet was born out of the need to improve the results of the ImageNet challeng
 
 In 2014,a successor of AlexNet VGGNet was created by Visual Geometry Group at OxFord's and hence the name VGG. VGGNet was the runner up of the ImageNet Large Scale Visual Recognition Challenge(ILSVRC) classification the benchmark in 2014 with just 7.3% error rate in the ILSVRC challenge.
 
+In 2014,Inception Net also called GoogleNet which was developed by Google researchers achieve the state of the art results in imagenet dataset beating VGG19 accuracy.The Inception Net goes deeper and beyond VGG19 net interms of number of layers in neural networks as well as in accuracy with faster training time.
 In 2015,Inception-v3 with 144 crops and 4 models ensembled, the top-5 error rate of 3.58% is obtained, and finally obtained 1st Runner Up (image classification) in ILSVRC 2015.
 
 In 2015,ResNet secured 1st Position in ILSVRC and COCO 2015 competition with just error rate of 3.6% of error rate. (Better than Human Performance !!!)
@@ -26,7 +27,7 @@ In 2015,ResNet secured 1st Position in ILSVRC and COCO 2015 competition with jus
 But in this repository we have used the pretrained weights of VGG-19 architeture.VGGNET has two variants.VGG-16 and VGG-19. VGG-16 is 16 layers deep with 13 convolution layers and 3 fully connected layers but VGG-19 is 19 layers deep with 16 convolution layers and 3 fully connected layers.
 
 ## Architecture Of Inception V3 Net:
-![](Architecture-of-the-FCN-VGG19-adapted-from-Long-et-al-2015-which-learns-to-combine.png)
+![](29.png)
 ![](vgg19_architecture.png)
 
 ## How To Run This Project
