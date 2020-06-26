@@ -1,6 +1,6 @@
 # Deploying_imagenet_pretrained_models_as_flask_web_service
 
-This repository mainly focuses on deployment of imagenet model which was trained on VGG-19 architecture using Flask as a web service.
+This repository mainly focuses on deployment of imagenet model which was trained on Inception Net architecture using Flask as a web service.
 ImageNet is a huge collection of image database with more than 14 million images of more than thousand unique classes. AI researcher Fei-Fei Li began working on the idea for ImageNet in 2006. At a time when most AI research focused on models and algorithms, Li wanted to expand and improve the data available to train AI algorithms. Imagenet dataset was collected in collaborative research from Standford and Princeton University professors and students.
 
 ## How ImageNet Dataset was created?
@@ -25,7 +25,7 @@ In 2015,ResNet secured 1st Position in ILSVRC and COCO 2015 competition with jus
 
 But in this repository we have used the pretrained weights of VGG-19 architeture.VGGNET has two variants.VGG-16 and VGG-19. VGG-16 is 16 layers deep with 13 convolution layers and 3 fully connected layers but VGG-19 is 19 layers deep with 16 convolution layers and 3 fully connected layers.
 
-## Architecture Of VGGNET:
+## Architecture Of Inception V3 Net:
 ![](Architecture-of-the-FCN-VGG19-adapted-from-Long-et-al-2015-which-learns-to-combine.png)
 ![](vgg19_architecture.png)
 
@@ -109,7 +109,7 @@ For installing virtual environment on Anaconda Prompt(Windows):
      conda create -n "your virtual environment name" python=3.6 (The code is tested and implemented in 3.6 so install python 3.6)
      e.g.
      
-     conda create -n vgg19_imagenet python=3.6
+     conda create -n inceptionv3_imagenet python=3.6
      
      
      
