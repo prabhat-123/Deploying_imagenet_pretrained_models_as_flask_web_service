@@ -91,7 +91,7 @@ For installing virtual environment on Anaconda Prompt(Windows):
   
   
         cd /*location to the repository */
-        e.g cd C:\Users\ASUS\Desktop\image_classification_with_imagenet (location to the repository in local computer)
+        e.g cd C:\Users\ASUS\Desktop\Deploying_imagenet_pretrained_models_as_flask_web_service-master (location to the repository in local computer)
   
   
  ##### iii) After changing the working directory to the current repository/project create a virtual environment by using the following commands:
@@ -101,7 +101,7 @@ For installing virtual environment on Anaconda Prompt(Windows):
      
      python -m venv venv 
      
-     e.g python -m venv imagenet
+     e.g python -m venv deployment
      
     Here venv is the name of the environment you like to choose. imagenet is the name of the virtual environment that i choose to use in     the example
      
@@ -112,7 +112,7 @@ For installing virtual environment on Anaconda Prompt(Windows):
      conda create -n "your virtual environment name" python=3.6 (The code is tested and implemented in 3.6 so install python 3.6)
      e.g.
      
-     conda create -n inceptionv3_imagenet python=3.6
+     conda create -n deployment python=3.6
      
      
      
@@ -137,7 +137,7 @@ For installing virtual environment on Anaconda Prompt(Windows):
    
      e.g 
    
-     conda activate vgg19_imagenet
+     conda activate deployment
    
 
 #### v) Now you need to install all the requirements and dependencies for running this project.
