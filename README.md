@@ -140,4 +140,13 @@ For installing virtual environment on Anaconda Prompt(Windows):
      conda activate deployment
    
 
-#### v) Now you need to install all the requirements and dependencies for running this project.
+#### v) Now you need to install all the requirements and dependencies for running this project.You can do this by using the command:
+
+
+            pip install -r requirements.txt
+            
+            
+#### vi) After installing all those dependencies,just run the flask app by using the command:
+
+            python app.py
+
