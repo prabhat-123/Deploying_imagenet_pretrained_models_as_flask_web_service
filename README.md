@@ -34,10 +34,10 @@ But in this repository we have used the pretrained weights of Inception V3 netwo
 
 ## How To Run This Project
 
-1) At first,run the notebook in google colab/jupyter notebook to download the VGG-19 pretrained model and then I save the model weights in .h5 file format.
+1) At first,run the notebook in google colab/jupyter notebook to download the InceptionV3 pretrained model and then I save the model weights in .h5 file format.
 The notebook file is also available in this repository: 
     
-    (Check out 'imagenet_vgg19_weights.ipynb' file)
+    (Check out 'imagenet_weights.ipynb' file)
     
 ### 1.  Download the repository or clone it.
 
