@@ -41,7 +41,7 @@ The notebook file is also available in this repository:
     
 ### 1.  Download the repository or clone it.
 
-https://github.com/prabhat-123/Nepalese_stock_data_scraping.git
+https://github.com/prabhat-123/Deploying_imagenet_pretrained_models_as_flask_web_service.git
 
 
 ### 2. After downloading, you have to open Command prompt/Anaconda prompt/Visual studio terminal to run this project.
