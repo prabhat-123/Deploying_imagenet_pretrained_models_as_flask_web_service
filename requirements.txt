@@ -1,4 +1,4 @@
-tensorflow==2.2.0
+tensorflow==2.9.3
 flask==2.1.0
 gevent==22.10.2
 pillow==7.1.2
