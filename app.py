@@ -1,24 +1,24 @@
-from __future__ import division,print_function
+# from __future__ import division,print_function
+import os
 import numpy as np
 import tensorflow as tf
-import sys
-import os
-import glob
-import re
+# import sys
+# import glob
+# import re
 
 # This block of code is used if you are going to deploy your model in Nvidi GPU if you don't have it then you can skip these codes
 
-from tensorflow.compat.v1 import ConfigProto
-from tensorflow.python.keras.backend import set_session
+# from tensorflow.compat.v1 import ConfigProto
+# from tensorflow.python.keras.backend import set_session
 
 
-tf.keras.backend.clear_session()
-config = tf.compat.v1.ConfigProto(gpu_options = 
-                         tf.compat.v1.GPUOptions(per_process_gpu_memory_fraction=0.9)
-)
-config.gpu_options.allow_growth = True
-session = tf.compat.v1.Session(config=config)
-tf.compat.v1.keras.backend.set_session(session)
+# tf.keras.backend.clear_session()
+# config = tf.compat.v1.ConfigProto(gpu_options = 
+#                          tf.compat.v1.GPUOptions(per_process_gpu_memory_fraction=0.9)
+# )
+# config.gpu_options.allow_growth = True
+# session = tf.compat.v1.Session(config=config)
+# tf.compat.v1.keras.backend.set_session(session)
 
 # Upto here 
 
@@ -27,7 +27,7 @@ from tensorflow.keras.applications.inception_v3 import preprocess_input, decode_
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 
-from flask import Flask,redirect,url_for,request,render_template
+from flask import Flask,redirect,request,render_template
 from werkzeug.utils import secure_filename
 from gevent.pywsgi import WSGIServer
 
@@ -40,7 +40,8 @@ app = Flask(__name__)
 model_path = 'inception_imagenet_weights.h5'
 model = load_model(model_path)
 model.summary()
-model._make_predict_function()  #Necessary for imagenet weights 
+# model._make_predict_function()
+#Necessary for imagenet weights 
 # If model._make_predict_funciton() throws you error then you can discard this line and comment it.
 
 
